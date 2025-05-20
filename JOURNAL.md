@@ -17,3 +17,15 @@ Made the pcb wired and every thing now i need to make the case!
 also drew silk screen :3
 
 ![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/3739aa13ad6cda50378e6f8f8947cf18623f6b46_silkscreen.png)
+
+May 19 - 1:30 hour session
+
+I was researching about prices and decided on a bunch of different parts!
+
+May 20 - 2:30 hour session
+
+Since i yestarday decided to change to a xiao NRF52840 i made a schematic and the pcb!
+
+![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/00588f102559cf54a683d342fbdc5db00ea16e84_image.png)
+
+![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/bd1ef7cc8fa7230d0f2f6f93d1a824ccf9e817f0_image.png)

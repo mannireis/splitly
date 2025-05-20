@@ -5,6 +5,148 @@
 	(uuid "98d50fd0-0d62-44d1-a4c8-186a697de45c")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_02x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x01"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D"
 			(pin_numbers
 				(hide yes)
@@ -173,7 +315,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ScottoKeebs:MCU_Nice_Nano_V2"
+		(symbol "Seeed_Studio_XIAO_Series:XIAO-nRF52840-SMD"
 			(pin_names
 				(offset 1.016)
 			)
@@ -181,35 +323,35 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at -18.542 23.114 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Nice_Nano_V2"
-				(at 0 -19.05 0)
+			(property "Value" "XIAO-nRF52840-SMD"
+				(at -8.636 21.336 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "ScottoKeebs_MCU:Nice_Nano_V2"
-				(at 0 -22.86 0)
+			(property "Footprint" ""
+				(at -8.89 5.08 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
-				(at 26.67 -63.5 90)
+				(at -8.89 5.08 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
@@ -223,24 +365,24 @@
 					(hide yes)
 				)
 			)
-			(symbol "MCU_Nice_Nano_V2_0_1"
+			(symbol "XIAO-nRF52840-SMD_0_1"
 				(rectangle
-					(start -10.16 16.51)
-					(end 10.16 -16.51)
+					(start -19.05 20.32)
+					(end 17.78 -19.05)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "MCU_Nice_Nano_V2_1_1"
-				(pin input line
-					(at -15.24 13.97 0)
-					(length 5.08)
-					(name "1"
+			(symbol "XIAO-nRF52840-SMD_1_1"
+				(pin passive line
+					(at -21.59 11.43 0)
+					(length 2.54)
+					(name "P0.02_A0_D0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -255,10 +397,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -15.24 11.43 0)
-					(length 5.08)
-					(name "0"
+				(pin passive line
+					(at -21.59 7.62 0)
+					(length 2.54)
+					(name "P0.03_A1_D1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -273,10 +415,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -15.24 8.89 0)
-					(length 5.08)
-					(name "GND"
+				(pin passive line
+					(at -21.59 3.81 0)
+					(length 2.54)
+					(name "P0.28_A2_D2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -291,10 +433,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -15.24 6.35 0)
-					(length 5.08)
-					(name "GND"
+				(pin passive line
+					(at -21.59 0 0)
+					(length 2.54)
+					(name "P0.29_A3_D3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -309,10 +451,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -15.24 3.81 0)
-					(length 5.08)
-					(name "2"
+				(pin passive line
+					(at -21.59 -3.81 0)
+					(length 2.54)
+					(name "P0.04_A4_D4_SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -327,10 +469,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -15.24 1.27 0)
-					(length 5.08)
-					(name "3"
+				(pin passive line
+					(at -21.59 -7.62 0)
+					(length 2.54)
+					(name "P0.05_A5_D5_SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -345,10 +487,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -15.24 -1.27 0)
-					(length 5.08)
-					(name "4"
+				(pin passive line
+					(at -21.59 -11.43 0)
+					(length 2.54)
+					(name "P1.11_D6_TX"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -363,316 +505,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -15.24 -3.81 0)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -6.35 0)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -8.89 0)
-					(length 5.08)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -11.43 0)
-					(length 5.08)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -13.97 0)
-					(length 5.08)
-					(name "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -3.81 -8.89 270)
-					(length 2.5)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -1.27 -8.89 270)
-					(length 2.5)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 1.27 -8.89 270)
-					(length 2.5)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 13.97 180)
-					(length 5.08)
-					(name "B+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 11.43 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 8.89 180)
-					(length 5.08)
-					(name "RST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 6.35 180)
-					(length 5.08)
-					(name "3.3v"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 3.81 180)
-					(length 5.08)
-					(name "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 1.27 180)
-					(length 5.08)
-					(name "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -1.27 180)
-					(length 5.08)
-					(name "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -3.81 180)
-					(length 5.08)
-					(name "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -6.35 180)
-					(length 5.08)
-					(name "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -8.89 180)
-					(length 5.08)
-					(name "14"
+				(pin passive line
+					(at -7.62 -21.59 90)
+					(length 2.54)
+					(name "BAT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -687,10 +523,136 @@
 						)
 					)
 				)
-				(pin input line
-					(at 15.24 -11.43 180)
-					(length 5.08)
-					(name "16"
+				(pin passive line
+					(at -5.08 22.86 270)
+					(length 2.54)
+					(name "PA31_SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -21.59 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 22.86 270)
+					(length 2.54)
+					(name "PA30_SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 22.86 270)
+					(length 2.54)
+					(name "RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -21.59 90)
+					(length 2.54)
+					(name "NFC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 22.86 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -21.59 90)
+					(length 2.54)
+					(name "NFC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 11.43 180)
+					(length 2.54)
+					(name "5V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -705,10 +667,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 15.24 -13.97 180)
-					(length 5.08)
-					(name "10"
+				(pin passive line
+					(at 20.32 7.62 180)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -716,6 +678,96 @@
 						)
 					)
 					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 3.81 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 2.54)
+					(name "P1.15_D10_MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -3.81 180)
+					(length 2.54)
+					(name "P1.14_D9_MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -7.62 180)
+					(length 2.54)
+					(name "P1.13_D8_SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -11.43 180)
+					(length 2.54)
+					(name "P1.12_D7_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -890,6 +942,283 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND1"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND1"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1711,6 +2040,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 180.34) (xy 116.84 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24384316-88e7-4ebf-b278-69ed23f4c266")
+	)
+	(wire
+		(pts
 			(xy 27.94 177.8) (xy 27.94 198.12)
 		)
 		(stroke
@@ -2041,6 +2380,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 171.45) (xy 109.22 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f34fc7f-9058-4723-aafc-952615faaa1a")
+	)
+	(wire
+		(pts
 			(xy 63.5 248.92) (xy 78.74 248.92)
 		)
 		(stroke
@@ -2298,16 +2647,6 @@
 			(type default)
 		)
 		(uuid "bb400c12-953c-4fec-9f9b-5c18ee20df51")
-	)
-	(wire
-		(pts
-			(xy 109.22 171.45) (xy 115.57 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c09ee587-0323-4405-b2b0-5b786e9288da")
 	)
 	(wire
 		(pts
@@ -2699,18 +3038,8 @@
 		)
 		(uuid "0027c7c9-d5e0-41c0-9ec1-ba6981b7a01d")
 	)
-	(label "collumn 5"
-		(at 158.75 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "05115ce3-6c05-4ec2-83c3-d1b1c5e588c8")
-	)
 	(label "row 0 2"
-		(at 138.43 157.48 180)
+		(at 139.7 186.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2719,18 +3048,18 @@
 		)
 		(uuid "0b65762b-7116-40da-bcfe-b729b84bf8c5")
 	)
-	(label "row 4"
-		(at 128.27 41.91 180)
+	(label "collumn 4"
+		(at 180.34 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "0d119c81-97b5-4533-8e0c-4b56a3dd2524")
+		(uuid "1233a1ff-a5ab-4057-bdbe-69e11b009076")
 	)
 	(label "row 0 2"
-		(at 115.57 171.45 0)
+		(at 116.84 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2740,12 +3069,12 @@
 		(uuid "144c3d8d-1060-457e-bad8-3811ccb0fd40")
 	)
 	(label "collumn 1 2"
-		(at 168.91 167.64 0)
+		(at 139.7 209.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "155e2429-cf21-475f-9af0-63970cc24393")
 	)
@@ -2779,18 +3108,8 @@
 		)
 		(uuid "2c63442b-b448-4c7c-adb8-ea38b678fa4d")
 	)
-	(label "row 3"
-		(at 128.27 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "484f3659-97ed-491a-80e9-071cc92acdf0")
-	)
 	(label "collumn 5 2"
-		(at 168.91 177.8 0)
+		(at 181.61 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2829,15 +3148,35 @@
 		)
 		(uuid "5c492293-26d9-4cac-8fbe-dc80f1491a6f")
 	)
-	(label "collumn 4"
-		(at 158.75 44.45 0)
+	(label "collumn 1"
+		(at 138.43 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "60933c0c-1ee7-4c91-9f68-ac4ab9a71197")
+		(uuid "5c914c2d-160f-4644-9ade-64d49cd988a3")
+	)
+	(label "row 4"
+		(at 138.43 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "60639d69-75c1-4e07-b3c4-de5b04762ab7")
+	)
+	(label "row 0"
+		(at 138.43 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ad8ecc7-a01e-411b-bc84-ea7c60b67817")
 	)
 	(label "collumn 2"
 		(at 55.88 25.4 90)
@@ -2859,15 +3198,15 @@
 		)
 		(uuid "6d5db9f2-bb69-4a1a-84b2-966762fe0387")
 	)
-	(label "row 1"
-		(at 128.27 34.29 180)
+	(label "row 3"
+		(at 138.43 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "79d39868-8fc0-4546-98d0-48ce667e735c")
+		(uuid "799b35af-fde1-4b7a-9df8-0205627ce165")
 	)
 	(label "collumn 5"
 		(at 101.6 25.4 90)
@@ -2880,7 +3219,7 @@
 		(uuid "7b17fc77-0646-4a08-998d-5664c966ad5c")
 	)
 	(label "row 3 2"
-		(at 138.43 170.18 180)
+		(at 139.7 198.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2890,7 +3229,7 @@
 		(uuid "7ed65954-eef1-41a9-8265-8ce65efde3ab")
 	)
 	(label "collumn 4 2"
-		(at 168.91 175.26 0)
+		(at 181.61 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2899,18 +3238,8 @@
 		)
 		(uuid "8311c3a6-2d5f-440d-b496-524a534c90b6")
 	)
-	(label "collumn 0"
-		(at 158.75 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83461c76-42a2-479b-83c3-7b84f43e3cdb")
-	)
 	(label "row 4 2"
-		(at 138.43 172.72 180)
+		(at 139.7 201.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2919,15 +3248,15 @@
 		)
 		(uuid "8a99aeaf-8d27-4d58-baa6-20f1f062299a")
 	)
-	(label "collumn 1"
-		(at 158.75 36.83 0)
+	(label "collumn 2"
+		(at 180.34 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "91603b7a-ea0f-4f3d-bae3-f821dc1c2b6a")
+		(uuid "8eef690d-c436-4b84-b6f6-a8b52f326c08")
 	)
 	(label "row 0"
 		(at 113.03 48.26 0)
@@ -2949,26 +3278,6 @@
 		)
 		(uuid "9308744d-f9c2-410a-b303-da62526a2ee7")
 	)
-	(label "collumn 2"
-		(at 158.75 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "93f5f606-abf9-4e0b-a2a2-a5f0e8112c68")
-	)
-	(label "collumn 3"
-		(at 158.75 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "94d2bcba-6769-4b99-a55f-00a53684deb5")
-	)
 	(label "row 2 2"
 		(at 115.57 210.82 0)
 		(effects
@@ -2980,7 +3289,7 @@
 		(uuid "9d702816-1ba1-41dc-8072-a132913acd6e")
 	)
 	(label "collumn 2 2"
-		(at 168.91 170.18 0)
+		(at 181.61 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2999,8 +3308,18 @@
 		)
 		(uuid "a22615b8-4a9e-4ecd-bd2f-761827b9fa77")
 	)
+	(label "collumn 3"
+		(at 180.34 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad80becf-f27e-428e-bf71-586b076aead5")
+	)
 	(label "row 2 2"
-		(at 138.43 167.64 180)
+		(at 139.7 194.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3010,7 +3329,7 @@
 		(uuid "b4cab743-362c-40b2-8eda-7185cb76673c")
 	)
 	(label "row 1 2"
-		(at 138.43 165.1 180)
+		(at 139.7 190.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3020,14 +3339,24 @@
 		(uuid "b8b74380-30f8-4b72-a5fa-0b908320fcb5")
 	)
 	(label "collumn 0 2"
-		(at 168.91 165.1 0)
+		(at 139.7 205.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "bbe9c986-205b-454e-8d12-9de2ba2b497d")
+	)
+	(label "collumn 0"
+		(at 138.43 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bcd145ea-daba-444f-87f9-c81a6ad02547")
 	)
 	(label "collumn 4 2"
 		(at 88.9 148.59 90)
@@ -3039,6 +3368,16 @@
 		)
 		(uuid "bf83bd8f-f548-4395-8087-fe617aa47157")
 	)
+	(label "row 2"
+		(at 138.43 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c85cc3ab-f50b-40a2-8ea6-1e62fb317f01")
+	)
 	(label "collumn 0"
 		(at 25.4 25.4 90)
 		(effects
@@ -3049,15 +3388,25 @@
 		)
 		(uuid "ce5d5ce5-ac0b-499d-b217-2f105a6b421e")
 	)
-	(label "row 2"
-		(at 128.27 36.83 180)
+	(label "row 1"
+		(at 138.43 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "d152c65a-91ce-49ed-a90c-0d300ac73376")
+		(uuid "d41e93cc-e1df-4063-a7ee-e9a1823ebea5")
+	)
+	(label "collumn 5"
+		(at 180.34 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4385cd2-11ab-4c21-807a-9988f1dd3b8b")
 	)
 	(label "row 1"
 		(at 113.03 67.31 0)
@@ -3080,7 +3429,7 @@
 		(uuid "da211632-f02e-4e45-a2d7-8ec122c6081e")
 	)
 	(label "collumn 3 2"
-		(at 168.91 172.72 0)
+		(at 181.61 201.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3098,16 +3447,6 @@
 			(justify left bottom)
 		)
 		(uuid "e666641b-f408-4b0c-8884-9b5fac628206")
-	)
-	(label "row 0"
-		(at 128.27 26.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f31d4a4d-169c-4bde-87a7-3ac8677c92f2")
 	)
 	(label "row 1 2"
 		(at 115.57 190.5 0)
@@ -3155,7 +3494,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 91.44 200.66 0)
 			(effects
 				(font
@@ -3223,7 +3562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 45.72 200.66 0)
 			(effects
 				(font
@@ -3266,6 +3605,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Seeed_Studio_XIAO_Series:XIAO-nRF52840-SMD")
+		(at 161.29 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0659c4bd-c986-4811-a5cc-c9d178c277a5")
+		(property "Reference" "U3"
+			(at 169.7833 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XIAO-nRF52840-SMD"
+			(at 169.7833 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XIAO-:XIAO-nRF52840-SMD"
+			(at 152.4 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "743dd0f6-f7e0-4650-9b89-e13ab6a545e8")
+		)
+		(pin "19"
+			(uuid "5e3e74c4-c5ae-49dc-a7ec-d69ac15fe7d3")
+		)
+		(pin "2"
+			(uuid "d4b8ade9-f4cd-40be-985f-6619049b0f41")
+		)
+		(pin "13"
+			(uuid "e093d073-2524-4d78-a09a-c20f79fe7bef")
+		)
+		(pin "21"
+			(uuid "081cb7d5-6073-427b-b9d3-e6d752a4e2d7")
+		)
+		(pin "6"
+			(uuid "72756e83-a0a8-401c-971f-6918e27d9fa1")
+		)
+		(pin "7"
+			(uuid "ab8b0af4-3df3-4455-ab73-f78999a37cdc")
+		)
+		(pin "20"
+			(uuid "7322fac5-607d-4675-b782-962d3cd57f6c")
+		)
+		(pin "1"
+			(uuid "74e741a1-883b-4d9a-bb3c-3f534477824b")
+		)
+		(pin "16"
+			(uuid "3e5283b0-4848-490f-aa77-e7c0b7870cd9")
+		)
+		(pin "8"
+			(uuid "7ef34faa-f7af-48ee-85c9-7cead9ac4fd9")
+		)
+		(pin "17"
+			(uuid "e1101649-9c10-428a-9101-913b35ee5f19")
+		)
+		(pin "18"
+			(uuid "efff5338-ffe9-48a2-b2a2-9a386dca7690")
+		)
+		(pin "15"
+			(uuid "767156b7-f148-4652-a2d4-09ac3fef6197")
+		)
+		(pin "12"
+			(uuid "9fdae587-629c-4b8e-ac34-bd72b1a7dad0")
+		)
+		(pin "10"
+			(uuid "e5215ac4-c131-41e4-9fa5-977f46f21e99")
+		)
+		(pin "11"
+			(uuid "ca54b809-56c7-444d-aa1e-c8028a49bdad")
+		)
+		(pin "9"
+			(uuid "3b1229eb-95a7-46b3-b564-b02e92fb3433")
+		)
+		(pin "22"
+			(uuid "58540fef-f5e8-4d2b-8a99-73cebc77f9c1")
+		)
+		(pin "14"
+			(uuid "3cf97565-8a45-48ad-98b0-0ac9def89c02")
+		)
+		(pin "4"
+			(uuid "a5d1e0c5-4c4a-4d57-8913-6f1f6ada4e5c")
+		)
+		(pin "5"
+			(uuid "f86f8ec2-0364-4749-92b4-b713a8872f28")
+		)
+		(instances
+			(project ""
+				(path "/98d50fd0-0d62-44d1-a4c8-186a697de45c"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 27.94 57.15 0)
 		(unit 1)
@@ -3291,7 +3760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 27.94 57.15 0)
 			(effects
 				(font
@@ -3359,7 +3828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 76.2 219.71 0)
 			(effects
 				(font
@@ -3427,7 +3896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 60.96 200.66 0)
 			(effects
 				(font
@@ -3759,7 +4228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 106.68 180.34 0)
 			(effects
 				(font
@@ -4091,7 +4560,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 58.42 57.15 0)
 			(effects
 				(font
@@ -4159,7 +4628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 88.9 77.47 0)
 			(effects
 				(font
@@ -4315,7 +4784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 104.14 115.57 0)
 			(effects
 				(font
@@ -4559,7 +5028,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 30.48 219.71 0)
 			(effects
 				(font
@@ -4627,7 +5096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 88.9 38.1 0)
 			(effects
 				(font
@@ -4783,7 +5252,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 76.2 238.76 0)
 			(effects
 				(font
@@ -4939,7 +5408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 60.96 161.29 0)
 			(effects
 				(font
@@ -5095,7 +5564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 76.2 161.29 0)
 			(effects
 				(font
@@ -5163,7 +5632,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 43.18 115.57 0)
 			(effects
 				(font
@@ -5407,7 +5876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 73.66 57.15 0)
 			(effects
 				(font
@@ -5475,7 +5944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 106.68 238.76 0)
 			(effects
 				(font
@@ -5631,7 +6100,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 104.14 57.15 0)
 			(effects
 				(font
@@ -5963,7 +6432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 91.44 180.34 0)
 			(effects
 				(font
@@ -6031,7 +6500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 106.68 200.66 0)
 			(effects
 				(font
@@ -6099,7 +6568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 91.44 161.29 0)
 			(effects
 				(font
@@ -6519,7 +6988,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 27.94 38.1 0)
 			(effects
 				(font
@@ -6763,7 +7232,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 27.94 96.52 0)
 			(effects
 				(font
@@ -6831,7 +7300,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 60.96 238.76 0)
 			(effects
 				(font
@@ -6987,7 +7456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 43.18 57.15 0)
 			(effects
 				(font
@@ -7206,6 +7675,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND1")
+		(at 151.13 242.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cce8aea-0f4d-42cd-955a-c13ebc3cf97c")
+		(property "Reference" "#PWR03"
+			(at 151.13 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 151.13 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 151.13 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94c9ddba-ca62-4c33-bcbf-93428cf5ccde")
+		)
+		(instances
+			(project ""
+				(path "/98d50fd0-0d62-44d1-a4c8-186a697de45c"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 93.98 207.01 90)
 		(unit 1)
@@ -7319,7 +7854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 73.66 77.47 0)
 			(effects
 				(font
@@ -7387,7 +7922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 106.68 219.71 0)
 			(effects
 				(font
@@ -7518,6 +8053,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND1")
+		(at 149.86 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6568af36-1c79-43e5-bec5-cc0efe612269")
+		(property "Reference" "#PWR05"
+			(at 149.86 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 149.86 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4123bae-ae49-4396-af04-4f8aea6e5b50")
+		)
+		(instances
+			(project "splitly"
+				(path "/98d50fd0-0d62-44d1-a4c8-186a697de45c"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 93.98 226.06 90)
 		(unit 1)
@@ -7631,7 +8232,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 30.48 180.34 0)
 			(effects
 				(font
@@ -7668,6 +8269,72 @@
 			(project "splitly"
 				(path "/98d50fd0-0d62-44d1-a4c8-186a697de45c"
 					(reference "SW37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 166.37 73.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c963bd6-f8bc-4098-ac4b-603de6781948")
+		(property "Reference" "#PWR07"
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 166.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af8c5c0d-4b02-46e7-bceb-092c5cd0f179")
+		)
+		(instances
+			(project "splitly"
+				(path "/98d50fd0-0d62-44d1-a4c8-186a697de45c"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8051,7 +8718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 45.72 161.29 0)
 			(effects
 				(font
@@ -8119,7 +8786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 27.94 77.47 0)
 			(effects
 				(font
@@ -8187,7 +8854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 106.68 161.29 0)
 			(effects
 				(font
@@ -8431,7 +9098,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 91.44 238.76 0)
 			(effects
 				(font
@@ -8468,149 +9135,6 @@
 			(project "splitly"
 				(path "/98d50fd0-0d62-44d1-a4c8-186a697de45c"
 					(reference "SW59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:MCU_Nice_Nano_V2")
-		(at 153.67 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c8f27f3-9a0f-42bb-9d9b-c46e1fd524c8")
-		(property "Reference" "U2"
-			(at 153.67 187.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "Nice_Nano_V2"
-			(at 153.67 190.5 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_MCU:Nice_Nano_V2"
-			(at 153.67 191.77 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 232.41 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "19"
-			(uuid "379a8add-4425-46e2-b9c3-bf69d7359ffe")
-		)
-		(pin "22"
-			(uuid "4e82c287-b0fc-4583-b401-d86675b40fb4")
-		)
-		(pin "15"
-			(uuid "54b17ce2-94c4-481e-8fd7-0cc122ef981e")
-		)
-		(pin "12"
-			(uuid "eefcc52b-040a-4dd8-b509-39db2b68ad18")
-		)
-		(pin "21"
-			(uuid "68033613-539d-478f-b46e-3811a8f55f8d")
-		)
-		(pin "16"
-			(uuid "96a96e6a-6c67-4a4b-bd82-fc77106df097")
-		)
-		(pin "8"
-			(uuid "e8c684ff-c8ae-4d9d-84f4-8795376a47de")
-		)
-		(pin "20"
-			(uuid "2dc46ff1-a4f9-466c-9b1c-4c42b4cb6555")
-		)
-		(pin "23"
-			(uuid "1b4e8bba-122b-4ea7-bb68-0ba5ab453e48")
-		)
-		(pin "25"
-			(uuid "ace6da55-4b07-4efe-9a43-f6ed6b35f338")
-		)
-		(pin "10"
-			(uuid "e4ce4e8d-ae1e-4d1b-802c-7e841b124fed")
-		)
-		(pin "13"
-			(uuid "5c24e590-35e4-4e09-8b96-c1c66edfd067")
-		)
-		(pin "26"
-			(uuid "6eabedc8-16ba-47e4-b517-13abc08e8b8e")
-		)
-		(pin "27"
-			(uuid "5a0fae5c-8ffd-4a0c-8b6a-35c6eb553028")
-		)
-		(pin "18"
-			(uuid "8683e7ce-8f23-46a4-94c4-0464e17fa9a0")
-		)
-		(pin "9"
-			(uuid "ebb685b3-ac45-4c9e-b54a-3dd798763b2b")
-		)
-		(pin "24"
-			(uuid "b1d89e2b-f41b-423c-b041-32a20f4c7e2d")
-		)
-		(pin "17"
-			(uuid "1efa4cdf-f4b1-45c2-8891-96f6e701a22f")
-		)
-		(pin "11"
-			(uuid "98a6e9fa-dbfd-4f34-8238-d3eb1cb6b7c6")
-		)
-		(pin "14"
-			(uuid "3aad44f2-bca1-4714-b9fc-e1a3cbdcb736")
-		)
-		(pin "1"
-			(uuid "ae8c677d-1822-4f3b-9c9a-87aa28c10f41")
-		)
-		(pin "5"
-			(uuid "0c0804a2-c43f-4bfe-8f95-26c386609f42")
-		)
-		(pin "4"
-			(uuid "eefc76ee-49ea-4828-b360-6a06ed607dd2")
-		)
-		(pin "7"
-			(uuid "165cc770-5b91-43f4-b6a1-98935f4c7071")
-		)
-		(pin "3"
-			(uuid "544c40a6-dfd3-40a0-a6b5-5ec8363f8a6d")
-		)
-		(pin "2"
-			(uuid "0b945fb3-a218-48d5-8895-efa90d3d097b")
-		)
-		(pin "6"
-			(uuid "f5aad3b5-b928-40b1-9bc4-99850e626c1f")
-		)
-		(instances
-			(project "splitly"
-				(path "/98d50fd0-0d62-44d1-a4c8-186a697de45c"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8793,6 +9317,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND1")
+		(at 181.61 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "849b328f-3cf3-4d9f-9528-65f3d69f02e7")
+		(property "Reference" "#PWR01"
+			(at 187.96 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 185.42 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 181.61 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bea59a1-a471-4791-9db7-83b98d391c13")
+		)
+		(instances
+			(project ""
+				(path "/98d50fd0-0d62-44d1-a4c8-186a697de45c"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 30.48 238.76 0)
 		(unit 1)
@@ -8818,7 +9409,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 30.48 238.76 0)
 			(effects
 				(font
@@ -8861,6 +9452,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x01")
+		(at 151.13 234.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88535137-1fa1-413b-992d-3c32d205f1eb")
+		(property "Reference" "J2"
+			(at 153.67 234.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_02x01"
+			(at 153.67 237.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+			(at 151.13 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 151.13 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f3e0e3f-cc97-42a9-9dfd-fd186cfc9bb7")
+		)
+		(pin "2"
+			(uuid "72c4c233-14a0-41a3-8005-1947fd8669cd")
+		)
+		(instances
+			(project ""
+				(path "/98d50fd0-0d62-44d1-a4c8-186a697de45c"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 167.64 175.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89b46e8c-9b69-489e-9edc-2390a5bcbc1c")
+		(property "Reference" "#PWR02"
+			(at 167.64 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 167.64 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 167.64 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52f97471-d495-45c6-805f-7a4535178943")
+		)
+		(instances
+			(project ""
+				(path "/98d50fd0-0d62-44d1-a4c8-186a697de45c"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 58.42 38.1 0)
 		(unit 1)
@@ -8886,7 +9613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 58.42 38.1 0)
 			(effects
 				(font
@@ -8954,7 +9681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 43.18 96.52 0)
 			(effects
 				(font
@@ -9022,7 +9749,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 76.2 200.66 0)
 			(effects
 				(font
@@ -9090,7 +9817,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 27.94 115.57 0)
 			(effects
 				(font
@@ -9127,6 +9854,76 @@
 			(project "splitly"
 				(path "/98d50fd0-0d62-44d1-a4c8-186a697de45c"
 					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x01")
+		(at 149.86 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "912135a9-009e-4917-a9a8-b91e0b0322e9")
+		(property "Reference" "J3"
+			(at 152.4 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_02x01"
+			(at 152.4 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+			(at 149.86 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 149.86 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "289779e6-9765-4f34-a05a-8e1b71b2d2e4")
+		)
+		(pin "2"
+			(uuid "7536245e-e2da-4595-a226-a4d289eee41d")
+		)
+		(instances
+			(project "splitly"
+				(path "/98d50fd0-0d62-44d1-a4c8-186a697de45c"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -9221,6 +10018,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Seeed_Studio_XIAO_Series:XIAO-nRF52840-SMD")
+		(at 160.02 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97ca9bd8-f5de-43b5-a067-9e8cd3e057ab")
+		(property "Reference" "U2"
+			(at 168.5133 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XIAO-nRF52840-SMD"
+			(at 168.5133 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XIAO-:XIAO-nRF52840-SMD"
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "26b6f5c6-f02c-4c0d-9cb9-d4433a4a799a")
+		)
+		(pin "19"
+			(uuid "7df93c3a-9493-4a99-b56c-1a6f921a49d7")
+		)
+		(pin "2"
+			(uuid "7afb3f64-cd8d-4124-ae65-dd19c4f888de")
+		)
+		(pin "13"
+			(uuid "04e56b30-ea1f-4c10-ab62-8a0360fb3e90")
+		)
+		(pin "21"
+			(uuid "1aba8345-321a-4047-991b-c0727680e114")
+		)
+		(pin "6"
+			(uuid "4792a8a2-fb68-433d-887a-73e0f2fee885")
+		)
+		(pin "7"
+			(uuid "af4a5f21-bf90-4be1-826f-073fd2d13db2")
+		)
+		(pin "20"
+			(uuid "04ff4ab7-27d7-4f37-a43f-3ccf7bc937ec")
+		)
+		(pin "1"
+			(uuid "b03c1b86-4e22-4109-9aa0-a1e8cb824e78")
+		)
+		(pin "16"
+			(uuid "65b51f57-5ebf-40e5-861b-23b14050b6c8")
+		)
+		(pin "8"
+			(uuid "2da0c7a5-5fa7-45e9-aae3-074aff784ce9")
+		)
+		(pin "17"
+			(uuid "037382b4-335a-4b7b-8c10-ed40fe093f05")
+		)
+		(pin "18"
+			(uuid "ceb38fb2-f076-458f-ade0-0089385d4c42")
+		)
+		(pin "15"
+			(uuid "2372fff2-fa2a-47e4-82f6-03b9469c346d")
+		)
+		(pin "12"
+			(uuid "d1b949bc-321c-4f98-92e9-2f9a5b254edf")
+		)
+		(pin "10"
+			(uuid "c3f00fa2-7797-40a1-9a3f-b1a85041ef46")
+		)
+		(pin "11"
+			(uuid "d2ae1e80-124e-43e9-9d7f-f99440dcc815")
+		)
+		(pin "9"
+			(uuid "4a1dbcde-28e5-4e08-9392-7fa5ab11a8b4")
+		)
+		(pin "22"
+			(uuid "fb853b6d-563c-40cc-a606-83f8c686b3d7")
+		)
+		(pin "14"
+			(uuid "8fd431a1-231d-424e-9738-9de4d8140d70")
+		)
+		(pin "4"
+			(uuid "409aa203-3a55-4ef5-ad4e-d71df9d02167")
+		)
+		(pin "5"
+			(uuid "bfe166d7-c57b-42ac-b191-68c61568fe70")
+		)
+		(instances
+			(project "splitly"
+				(path "/98d50fd0-0d62-44d1-a4c8-186a697de45c"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 91.44 219.71 0)
 		(unit 1)
@@ -9246,7 +10173,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 91.44 219.71 0)
 			(effects
 				(font
@@ -9490,7 +10417,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 88.9 115.57 0)
 			(effects
 				(font
@@ -9646,7 +10573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 30.48 200.66 0)
 			(effects
 				(font
@@ -9802,7 +10729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 30.48 161.29 0)
 			(effects
 				(font
@@ -9870,7 +10797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 45.72 238.76 0)
 			(effects
 				(font
@@ -9938,7 +10865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 60.96 180.34 0)
 			(effects
 				(font
@@ -10182,7 +11109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 45.72 219.71 0)
 			(effects
 				(font
@@ -10338,7 +11265,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 88.9 57.15 0)
 			(effects
 				(font
@@ -10494,7 +11421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 88.9 96.52 0)
 			(effects
 				(font
@@ -10562,7 +11489,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 104.14 96.52 0)
 			(effects
 				(font
@@ -10630,7 +11557,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 73.66 115.57 0)
 			(effects
 				(font
@@ -10698,7 +11625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 73.66 96.52 0)
 			(effects
 				(font
@@ -10854,7 +11781,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 76.2 180.34 0)
 			(effects
 				(font
@@ -11098,7 +12025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 43.18 38.1 0)
 			(effects
 				(font
@@ -11141,51 +12068,35 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:MCU_Nice_Nano_V2")
-		(at 143.51 38.1 0)
+		(lib_id "Switch:SW_SPDT")
+		(at 152.4 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d443b1f4-76e5-4b13-bdbf-624dee15c6c5")
-		(property "Reference" "U1"
-			(at 143.51 57.15 0)
+		(uuid "d219fae2-6cad-4d9d-8c46-277b5e716668")
+		(property "Reference" "SW62"
+			(at 157.48 121.9199 90)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Nice_Nano_V2"
-			(at 143.51 59.69 0)
+		(property "Value" "SW_SPDT"
+			(at 157.48 124.4599 90)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MCU:Nice_Nano_V2"
-			(at 143.51 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 101.6 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 38.1 0)
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN"
+			(at 152.4 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11193,91 +12104,37 @@
 				(hide yes)
 			)
 		)
-		(pin "19"
-			(uuid "ec42b053-4825-471a-b8e5-3a2af67f7b5c")
+		(property "Datasheet" "~"
+			(at 144.78 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "22"
-			(uuid "9fb70b1f-b75f-4644-9da4-ba87ec4d017f")
-		)
-		(pin "15"
-			(uuid "c266adcb-8a4e-4393-a7c7-11d327bb450e")
-		)
-		(pin "12"
-			(uuid "3e8615f5-7d6c-4d3f-86ab-a5bbf294077d")
-		)
-		(pin "21"
-			(uuid "1e2427e1-2e20-49f2-9f61-c77e80584467")
-		)
-		(pin "16"
-			(uuid "e54364c5-f1b6-4dd6-9ffd-85e53a9a4059")
-		)
-		(pin "8"
-			(uuid "7a2eb113-b1e6-447b-a28e-2397d8b816c4")
-		)
-		(pin "20"
-			(uuid "2b3f171c-dd1f-4be3-bc06-ab8657eec7bd")
-		)
-		(pin "23"
-			(uuid "ad6c93e9-68fb-4a94-a82b-1875e4414428")
-		)
-		(pin "25"
-			(uuid "8a1dca9d-5960-4f98-a722-bc1a48e2a227")
-		)
-		(pin "10"
-			(uuid "5d50288c-65fa-485f-a80a-7bad6f838891")
-		)
-		(pin "13"
-			(uuid "2fff3716-b745-4e7c-9f28-6697270f82f9")
-		)
-		(pin "26"
-			(uuid "c8b7753f-dd92-4177-acc2-16b05e0244c1")
-		)
-		(pin "27"
-			(uuid "8ef46f0a-61a5-45cd-8c6f-012cd4125387")
-		)
-		(pin "18"
-			(uuid "6d49c54d-f815-4e64-8056-c4d6d850f591")
-		)
-		(pin "9"
-			(uuid "e784da31-ef0a-441f-ae67-c65ac5695fe3")
-		)
-		(pin "24"
-			(uuid "1d9c6b4b-ea98-468a-a3d5-1c5bc78c6d05")
-		)
-		(pin "17"
-			(uuid "5e52561d-40c5-45c7-a9f8-969147de3f30")
-		)
-		(pin "11"
-			(uuid "b6df8858-c766-46cb-bc13-5c97177eba94")
-		)
-		(pin "14"
-			(uuid "f3a8ea20-2e58-4614-942f-132ff9f84900")
+		(property "Description" "Switch, single pole double throw"
+			(at 152.4 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "7858132c-e1cf-4ef7-8fb1-20fe87e460b0")
-		)
-		(pin "5"
-			(uuid "51d5efd4-7d0d-4e65-b2ec-3d07e3b2d8e6")
-		)
-		(pin "4"
-			(uuid "fa42fac0-1489-4196-a2ba-d642b9a65546")
-		)
-		(pin "7"
-			(uuid "822c11e0-9c9d-464c-93f0-49e4efeb5ccc")
+			(uuid "4a0b3b9b-383e-489a-b282-fd6796445a73")
 		)
 		(pin "3"
-			(uuid "20f4ca13-815f-4314-8800-1e027a2e6be2")
+			(uuid "41fb4c4e-b09f-47f0-9d9e-ac86806ddc95")
 		)
 		(pin "2"
-			(uuid "27eaa5e2-184a-4cd7-be9b-c48ee82d6edf")
-		)
-		(pin "6"
-			(uuid "bb15b27a-724f-4d68-bb56-3bc3b60c4cce")
+			(uuid "c10be0c5-0f79-49e1-a72f-c665909f2bf8")
 		)
 		(instances
-			(project ""
+			(project "splitly"
 				(path "/98d50fd0-0d62-44d1-a4c8-186a697de45c"
-					(reference "U1")
+					(reference "SW62")
 					(unit 1)
 				)
 			)
@@ -11309,7 +12166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 73.66 38.1 0)
 			(effects
 				(font
@@ -11346,6 +12203,72 @@
 			(project "splitly"
 				(path "/98d50fd0-0d62-44d1-a4c8-186a697de45c"
 					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 158.75 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "daad805d-169f-49a7-aca8-374c60647ee6")
+		(property "Reference" "#PWR04"
+			(at 158.75 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 158.75 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 158.75 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbf0e0e5-aac2-4215-a151-fc2f3fadeb67")
+		)
+		(instances
+			(project ""
+				(path "/98d50fd0-0d62-44d1-a4c8-186a697de45c"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -11641,7 +12564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 58.42 115.57 0)
 			(effects
 				(font
@@ -11709,7 +12632,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 58.42 96.52 0)
 			(effects
 				(font
@@ -11865,7 +12788,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 43.18 77.47 0)
 			(effects
 				(font
@@ -11933,7 +12856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 58.42 77.47 0)
 			(effects
 				(font
@@ -12001,7 +12924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 104.14 77.47 0)
 			(effects
 				(font
@@ -12069,7 +12992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 45.72 180.34 0)
 			(effects
 				(font
@@ -12112,6 +13035,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 153.67 224.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e61f94fd-eeb9-48c4-a605-63f974caf2d5")
+		(property "Reference" "SW61"
+			(at 158.75 223.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 158.75 226.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN"
+			(at 153.67 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 153.67 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4236efc4-79c3-443f-a031-620a6c305743")
+		)
+		(pin "3"
+			(uuid "b07be267-ab8c-4603-b7b8-35da2eb2f9e7")
+		)
+		(pin "2"
+			(uuid "dcd91b3a-0c04-430b-9aaf-64a8a391aeb7")
+		)
+		(instances
+			(project "splitly"
+				(path "/98d50fd0-0d62-44d1-a4c8-186a697de45c"
+					(reference "SW61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 60.96 219.71 0)
 		(unit 1)
@@ -12137,7 +13133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 60.96 219.71 0)
 			(effects
 				(font
@@ -12356,6 +13352,139 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND1")
+		(at 157.48 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed46c0a1-da7b-4de3-99f0-23ec87f0b454")
+		(property "Reference" "#PWR06"
+			(at 157.48 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 157.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b2365a8-4923-493d-9a2c-3335348ad9a8")
+		)
+		(instances
+			(project "splitly"
+				(path "/98d50fd0-0d62-44d1-a4c8-186a697de45c"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 180.34 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f329c371-70da-4031-92d6-deb8cc42e5a8")
+		(property "Reference" "#PWR08"
+			(at 186.69 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 180.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d59b438-20da-4419-b19e-be5184276995")
+		)
+		(instances
+			(project "splitly"
+				(path "/98d50fd0-0d62-44d1-a4c8-186a697de45c"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 48.26 226.06 90)
 		(unit 1)
@@ -12469,7 +13598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 104.14 38.1 0)
 			(effects
 				(font
