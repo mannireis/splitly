@@ -1,4 +1,4 @@
-27790026510975365
+27793522194403540
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -111348,6 +111348,13 @@ xiao-tht
 0
 18
 18
+nRF
+XIAO-nRF52840-Plus-SMD
+
+
+0
+29
+29
 new
 cool
 
@@ -111371,6 +111378,13 @@ rsta
 0
 new
 sta
+
+
+0
+0
+0
+new
+testytest
 
 
 0
