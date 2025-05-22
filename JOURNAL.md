@@ -29,3 +29,13 @@ Since i yestarday decided to change to a xiao NRF52840 i made a schematic and th
 ![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/00588f102559cf54a683d342fbdc5db00ea16e84_image.png)
 
 ![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/bd1ef7cc8fa7230d0f2f6f93d1a824ccf9e817f0_image.png)
+
+May 21 - 3 hour session
+
+I started making the case but scraped everything im fine with not counting this time!
+
+May 22 - 4 hour session
+
+Did the case it took so looooong it was worth it!
+
+![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/1e259f16b8c82aafb8f1434b42bad29ca9ab75e2_image.png)
