@@ -1,3 +1,11 @@
+---
+title: "Splitly"
+author: "manni"
+description: "A low profile wireless split keyboard"
+created_at: "2025-06-18"
+---
+
+
 May 18 - 3 hour session
 
 Did my schematic:
