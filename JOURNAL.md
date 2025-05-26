@@ -47,3 +47,9 @@ May 22 - 4 hour session
 Did the case it took so looooong it was worth it!
 
 ![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/1e259f16b8c82aafb8f1434b42bad29ca9ab75e2_image.png)
+
+
+May 26 - 0:30 hour session!
+
+
+Did the other side of the case
