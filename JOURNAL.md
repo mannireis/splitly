@@ -53,3 +53,8 @@ May 26 - 0:30 hour session!
 
 
 Did the other side of the case
+
+May 27 - 3 hour sessions
+
+
+Doing ZMK
