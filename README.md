@@ -1,6 +1,19 @@
 # splitly
 A low profile wireless split keyboard!
 
+
+## Features
+- Low profile design
+- Wireless connectivity
+- Customizable keycaps
+- Ergonomic layout
+
+## Advantages
+- Low profile design
+- Wireless connectivity
+- Customizable keycaps
+- Ergonomic layout
+
 Some pics!
 
 ![image](https://github.com/user-attachments/assets/b3c953d9-63bd-48dc-96f7-7b6fa46be939)
