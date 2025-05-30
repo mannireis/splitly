@@ -1,21 +1,31 @@
 # splitly
-A low profile wireless split keyboard!
+
+Splitly is a 60key wireless split keyboard that was made with support of https://hackclub.com/!
+
+The Schematic:
+
+![image](https://github.com/user-attachments/assets/91b44ecb-ba7f-49ce-a832-ca3c7f6e0bb8)
+
+The PCB:
+
+![image](https://github.com/user-attachments/assets/bac34157-7134-4c80-aef1-d39485ece750)
+
+![image](https://github.com/user-attachments/assets/93a15cdf-d291-4cf0-aed4-08a104be4a76)
 
 
-## Features
-- Low profile design
-- Wireless connectivity
-- Customizable keycaps
-- Ergonomic layout
+The Case:
 
-## Advantages
-- Low profile design
-- Wireless connectivity
-- Customizable keycaps
-- Ergonomic layout
+![image](https://github.com/user-attachments/assets/3ef02a6e-92fb-43d1-9415-5f539b8636c7)
 
-Some pics!
+![image(1)](https://github.com/user-attachments/assets/27971e71-b64f-4432-b967-619ee3257a3a)
 
-![image](https://github.com/user-attachments/assets/b3c953d9-63bd-48dc-96f7-7b6fa46be939)
 
-![image](https://github.com/user-attachments/assets/842ed85e-6c7b-440b-acb9-8f48bd2b5687)
+In total this took me about 19 hours.
+
+The hardest part about this was making the case and reasearh of all the parts.
+
+My inspiration was mostly the bayleaf keyboard:
+
+https://www.graz.io/articles/bayleaf-wireless-keyboard
+
+
