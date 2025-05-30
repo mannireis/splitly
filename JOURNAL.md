@@ -5,6 +5,8 @@ description: "A low profile wireless split keyboard"
 created_at: "2025-06-18"
 ---
 
+Total Time: 18.5
+
 
 May 18 - 3 hour session
 
