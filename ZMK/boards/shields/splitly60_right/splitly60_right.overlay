@@ -1,0 +1,23 @@
+/ {
+    chosen {
+        zmk,matrix = &right_matrix;
+    };
+
+    matrix: right_matrix {
+        compatible = "zmk,matrix";
+        row-gpios = <&gpio0 2 GPIO_ACTIVE_HIGH>,  // row 0 - P0.02
+                    <&gpio0 3 GPIO_ACTIVE_HIGH>,  // row 1 - P0.03
+                    <&gpio0 28 GPIO_ACTIVE_HIGH>, // row 2 - P0.28
+                    <&gpio0 29 GPIO_ACTIVE_HIGH>, // row 3 - P0.29
+                    <&gpio0 4 GPIO_ACTIVE_HIGH>;  // row 4 - P0.04
+
+        col-gpios = <&gpio0 5 GPIO_ACTIVE_HIGH>,  // col 0 - P0.05
+                    <&gpio1 1 GPIO_ACTIVE_HIGH>,  // col 1 - P1.01
+                    <&gpio1 2 GPIO_ACTIVE_HIGH>,  // col 2 - P1.02
+                    <&gpio1 5 GPIO_ACTIVE_HIGH>,  // col 3 - P1.05
+                    <&gpio1 3 GPIO_ACTIVE_HIGH>,  // col 4 - P1.03
+                    <&gpio1 4 GPIO_ACTIVE_HIGH>;  // col 5 - P1.04
+
+        diode-direction = <ROW2COL>;
+    };
+};

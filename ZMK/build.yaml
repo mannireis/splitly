@@ -1,0 +1,6 @@
+---
+include:
+  - board: seeeduino_xiao_ble
+    shield: splitly60_left
+  - board: seeeduino_xiao_ble
+    shield: splitly60_right

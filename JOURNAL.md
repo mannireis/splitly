@@ -5,6 +5,8 @@ description: "A low profile wireless split keyboard"
 created_at: "2025-06-18"
 ---
 
+Total Time: 18.5
+
 
 May 18 - 3 hour session
 
@@ -53,3 +55,8 @@ May 26 - 0:30 hour session!
 
 
 Did the other side of the case
+
+May 27 - 3 hour sessions
+
+
+Doing ZMK
